@@ -8,9 +8,7 @@ laptop. The data store must be exposed as a library to clients that can instanti
 
 1. It can be initialized using an optional file path. If one is not provided, it will reliably create itself in a reasonable location on the laptop.
 
-2. A new key-value pair can be added to the data store using the Create operation. The key
-
-is always a string - capped at 32chars. The value is always a JSON object - capped at 16KB.
+2. A new key-value pair can be added to the data store using the Create operation. The key is always a string - capped at 32chars. The value is always a JSON object - capped at 16KB.
 
 3. If Create is invoked for an existing key, an appropriate error must be returned.
 
