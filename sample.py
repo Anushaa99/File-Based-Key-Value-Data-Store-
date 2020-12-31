@@ -1,7 +1,7 @@
 #Build a file-based key-value data store that supports the basic CRD (create, read, and delete) operations.
 #Run the module of main file and import mainfile as a library(Mainfile = code.py)
 #importing the main file
-import code as c
+import code as c 
 
 #A new key-value pair can be added to the data store using the Create operation
 c.create("ab@99",22) #Invalind key_name
